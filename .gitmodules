@@ -37,3 +37,8 @@
 [submodule "bundle/typescript-vim"]
 	path = bundle/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+    ignore = dirty
+[submodule "bundle/rust"]
+	path = bundle/rust
+	url = https://github.com/rust-lang/rust.vim.git
+    ignore = dirty
