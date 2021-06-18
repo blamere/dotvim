@@ -1,7 +1,7 @@
 ### Installation:
-=======
+---
 ```
-git clone git://github.com/lamereb/dotvim.git ~/.vim
+git clone git://github.com/blamere/dotvim.git ~/.vim
 ```
 
 ### Create symlink:
@@ -25,4 +25,4 @@ Also, add the following line:
 ignore = dirty
 ```
 to the corresponding bundles `.gitmodules` entry
-See [here](http://www.nils-haldenwang.de/frameworks-and-tools/git/how-to-ignore-changes-in-git-submodules) for more info.
+See [here](https://medicineyeh.wordpress.com/2015/07/15/how-to-ignore-changes-in-git-submodules/) for more info.
