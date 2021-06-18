@@ -4,7 +4,8 @@ execute pathogen#helptags()
 
 syntax on
 
-filetype indent on
+filetype plugin indent on
+set modeline
 
 " color/highlighting
 set t_ut=""     "disable Vim's Background Color Erase (BCE) option for WSL: see https://github.com/microsoft/terminal/issues/832
@@ -27,7 +28,7 @@ let g:html_indent_inctags="html,body,head,tbody,dd"
 let g:html_indent_autotags="th,td,tr"
 let mapleader=","
 
-set tabstop=4 shiftwidth=4 expandtab
+set tabstop=4 shiftwidth=4 expandtab softtabstop=4
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r   " stop automatic comment-insertion on next line
 autocmd FileType cpp,javascript setlocal shiftwidth=2 tabstop=2
 nmap <F7> :set wrap!<CR>
