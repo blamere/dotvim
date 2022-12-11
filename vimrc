@@ -50,3 +50,7 @@ nnoremap <leader>g :execute "grep! -R " . shellescape(expand("<cWORD>")) . " ."<
 " misc
 autocmd BufWritePre * :%s/\s\+$//e  " always trim trailing whitespace at work
 " source /usr/local/etc/vimrc_files/reasonably_stable_mappings.vim
+"
+
+" WSL concessions for Windows machines
+nnoremap v <c-v>
